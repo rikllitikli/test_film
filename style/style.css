@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e4edf4;
+}
+
+header{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.logo{
+    max-width: 364px;
+    width: 100%;
+    background-color: #51afe1;
+    padding: 56px 0 51px ;
+}
+
+.logo h3{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+
+.header_content{
+    background-color: #6fcdff;
+    padding: 49px 101px 49px;
+    width: 100%;
+}
+.header_content a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.header_content a:before{
+    display: inline-block;
+    content: "+";
+    padding: 14px 18px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #6fcdff;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 13px;
+}
+section{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 51px;
+}
+.aside{
+    background-image: url("../img/block_back.png");
+    padding: 82px 107px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aside img{
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+.aside_content h3 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.aside_content p {
+    font-size: 16px;
+    color: white;
+    line-height: 28px;
+    margin-bottom: 34px;
+}
+
+.list{
+    display: flex;
+}
+
+.list ul{
+    margin-bottom: 41px;
+}
+
+.list li {
+    color: white;
+    list-style: none;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.list  ul:nth-child(1) li{
+    margin-right: 100px;
+}
+
+.list  ul:nth-child(2) li{
+    font-size: 16px;
+}
+
+.list  ul:nth-child(2) li:nth-child(4){
+    text-transform: none;
+    line-height: 28px;
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.button a:nth-child(1){
+    background-color: #ff7e70;
+    padding: 14px 45px;
+    border-radius: 20px;
+    margin-right: 21px;
+}
+
+
+.button a:nth-child(2){
+    background-color: #6ecdfd;
+    padding: 14px 55px;
+    border-radius: 20px;
+}
+
+.coments{
+    background-color: white;
+    padding: 40px 107px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.coments p{
+    color: #ff7e70;
+}
+
